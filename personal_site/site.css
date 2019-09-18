@@ -1,0 +1,17 @@
+body {
+    font-family: "Crimson text", serif;
+    background-color: #F2FFFC;
+}
+h1, h2{
+    font-family: "Open sans Condensed", serif; /*define o tipo da fonte do texto*/
+}
+
+h1{
+    background-color: #851944; /* define a cor do fundo do h1*/
+    color: #FFF;
+    text-align: center; /* centraliza o texto */
+}
+
+p{
+    text-align: justify
+}
