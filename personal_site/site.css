@@ -2,16 +2,35 @@ body {
     font-family: "Crimson text", serif;
     background-color: #F2FFFC;
 }
-h1, h2{
-    font-family: "Open sans Condensed", serif; /*define o tipo da fonte do texto*/
-}
 
-h1{
+main h1{
     background-color: #851944; /* define a cor do fundo do h1*/
     color: #FFF;
     text-align: center; /* centraliza o texto */
 }
 
+h1, h2{
+    font-family: "Open sans Condensed", serif; /*define o tipo da fonte do texto*/
+}
+
 p{
     text-align: justify
+}
+
+blockquote {
+    background-color: #D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+nav a {
+    color: #F2FFFC;
 }
