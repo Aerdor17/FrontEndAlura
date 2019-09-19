@@ -1,12 +1,17 @@
 body {
     font-family: "Crimson text", serif;
     background-color: #F2FFFC;
+    font-size: 120%;
 }
 
 main h1{
     background-color: #851944; /* define a cor do fundo do h1*/
     color: #FFF;
     text-align: center; /* centraliza o texto */
+}
+
+main a {
+    color: #851944;
 }
 
 h1, h2{
@@ -26,6 +31,11 @@ aside {
     color: #F2FFFC;
 }
 
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
 footer {
     background-color: #000;
     color: #F2FFFC;
@@ -34,3 +44,4 @@ footer {
 nav a {
     color: #F2FFFC;
 }
+
