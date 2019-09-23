@@ -11,6 +11,7 @@ main h1{ /* definições dos h1 dentro do main*/
     text-align: center; /* centraliza o texto */
     padding: 25px;
     margin: 0px;
+    font-size: 60px;
 }
 
 main a { /* definição dos links dentro do main*/
@@ -24,6 +25,7 @@ h1, h2{ /* definiç~~oes gerais dos h1 e h2 */
 
 p{ /* definições dos paragrafos */
     text-align: justify
+    margin: 20px 0;
 }
 
 blockquote { /*definições do bloco de código */
@@ -34,6 +36,7 @@ blockquote { /*definições do bloco de código */
     margin: 0px;
     box-sizing: content-box;
     border: 10px solid #C2CCCA;
+    margin: 20px 40px;
 }
 
 aside {
@@ -44,6 +47,11 @@ aside {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 footer {
@@ -61,6 +69,26 @@ div{
     margin-right: auto;
 }
 
+main div{
+    padding: 30px 0;
+}
+
 ul{
     list-style-type:none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+h2{
+    font-size: 30px;
+}
+
+li {
+    display: inline;
 }
