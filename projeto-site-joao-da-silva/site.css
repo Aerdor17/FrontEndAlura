@@ -1,0 +1,27 @@
+main h1 {
+    font-size: 40px;
+    /* modo arcaico de definir cores*/
+    background-color: rgb(120, 30, 60);
+    /*modo nice*/
+    color: #FAFFFA;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1, h2 {
+    font-family:"Open Sans Condensed","Arial", sans-serif;
+}
+
+p {
+    font-family: "Times New Roman", "Times", sans-serif;
+    text-align: justify;
+}
+
+body {
+    font-family: "Crisom text","Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
