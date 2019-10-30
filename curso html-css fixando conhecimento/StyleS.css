@@ -1,0 +1,37 @@
+body {
+    background-color: #cccccc;
+    font-size: 18px;
+}
+
+.bloco-principal{
+    padding: 30px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+}
+
+.primeira-imagem {
+    width: 100%;
+}
+
+.missao {
+    color: red;
+    font-size: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+.lista {
+    display: inline-block;
+    margin-right: 15%;
+    vertical-align: top;
+    width: 20%;
+}
+
+.barbearia-img {
+   width: 50%;
+}
