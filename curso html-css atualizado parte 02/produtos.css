@@ -19,7 +19,7 @@
 * Absolute:
 * O position Absolute é um grande quebra galho no Css. Com ele você pode 
 * posicionar qualquer elemento de acordo com o elemento pai que tenha um position diferente de static.
-* (no caso o elemento pai usado nesse progeto foi uma <div> ).
+* (no caso o elemento pai usado nesse progeto foi uma <div> que esta definida pela class caixa ).
 **/
 
 header {
@@ -53,4 +53,35 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+/********************* MAIN *****************************/
+
+.produtos {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0px;
+    color: #000000;
+}
+
+.produtos li {
+    display: inline-block; 
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+
 }
