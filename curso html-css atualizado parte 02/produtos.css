@@ -1,15 +1,38 @@
-.imagemCabecalho{
-    
-    display: inline-block;
-    margin-left: 25px;
+/*
+* SOBRE: display: inline e inline-block
+* Quaisquer elementos inline em sua página, ocuparão somente o espaço necessário para sua exibição. Não será possível
+* adicionar espaçamento (padding ou margin) nem definir valores para sua altura (height) e largura (width).
+*/
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    /*vertical-horizontal*/
 }
 
-.listaCabecalho{
-    
-    
-    margin-left: 15px;
+.caixa {
+    width: 940px;
+    /*width largura*/
+    position: relative;
+    margin: 0 auto;
+    /* primeiro vertical depois horizontal*/
 }
 
-.itens{
-    
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
