@@ -10,6 +10,16 @@
 ************************************************************************************ 
 * Margin / Margem - Espaçamento fora do conteúdo.
 * Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo.
+************************************************************************************
+* Static:
+* Esse é o valor default de todo elemento HTML, ou seja, ele vai seguir o fluxo comum da sua página.
+* Relative:
+* Utilizando o position Relative o elemento passa a aceitar as propriedades Top, Bottom, Left e Right. 
+* Com elas você pode alterar o posicionamento do elemento.
+* Absolute:
+* O position Absolute é um grande quebra galho no Css. Com ele você pode 
+* posicionar qualquer elemento de acordo com o elemento pai que tenha um position diferente de static.
+* (no caso o elemento pai usado nesse progeto foi uma <div> ).
 **/
 
 header {
