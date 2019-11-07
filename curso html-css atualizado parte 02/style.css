@@ -173,21 +173,28 @@ form label, form legend {
 
 .enviar {
     width: 40%;
-    padding: 15 0px;
+    padding: 15px 0;
     color: #ffffff;
     background-color: #FFA500;
     font-size: bold;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s background;
+    /*canto arredondado*/
+    transition: 1s all;
+    /* define o tempo de transição da cor de fundo do botão enviar*/
     cursor: pointer;
+    /*muda a seta do mouse para o mão quando ela esta encima do botão enviar*/
 }
 
 /*ou .enviar:houver e .enviar:activi */
 
 .enviar:hover {
-    font-size: 22px;
-    background-color: green;
-    color: #000000;
+    transform: scale(1.2);
+    background-color: darkorange;
+    
+}
+
+.tabela-horario tr{
+    border: black;
 }
