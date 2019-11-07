@@ -154,7 +154,7 @@ form {
 
 /*esta aplicando ao form radios*/
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -166,6 +166,28 @@ form label, form p {
     padding: 10px 25px;
     width: 50%;
 }
-.checkbox{
+
+.checkbox {
     margin: 20px 0px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15 0px;
+    color: #ffffff;
+    background-color: #FFA500;
+    font-size: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+/*ou .enviar:houver e .enviar:activi */
+
+.enviar:hover {
+    font-size: 22px;
+    background-color: green;
+    color: #000000;
 }
