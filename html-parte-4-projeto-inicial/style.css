@@ -155,21 +155,25 @@ td, th {
 
 /*css da página inicial*/
 .banner{
-width: 100%;
+	width: 100%;
 }
 
 .titulo-principal{
 	text-align: center;
-	font-size: 2em;
+	font-size: 2em; /*a propriedade 2em é usada para dizer que o elemento tera o dobro do tamanho do elemento original*/
+	font-weight: bold;
 	margin: 0 0 1em;
 	clear: left;
+	color: rgba(0,0,0,0.3);
+
 }
+
+/*
 
 .titulo-principal:first-letter{
 	font-weight: bold;
 }
 
-/*
 .titulo-principal:before{
 content: "["
 }
@@ -188,8 +192,6 @@ content: "]"
 
 .principal p {
 	margin: 0 0 1em;
-
-
 }
 
 .principal strong{
@@ -251,8 +253,15 @@ content: "]"
 	text-align: center;
 }
 
+
 .imagem-beneficios{
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+}
+
+.imagem-beneficios:hover{
+	opacity: 0.3;
 
 }
 
@@ -261,6 +270,20 @@ content: "]"
 	margin: 2em auto;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Seletores avançados CSS
 main > p{
