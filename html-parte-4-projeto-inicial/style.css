@@ -164,11 +164,12 @@ td, th {
 	font-weight: bold;
 	margin: 0 0 1em;
 	clear: left;
-	color: rgba(0,0,0,0.3);
-
+	
 }
 
 /*
+
+Opacidade alpha, color: rgba(0,0,0,0.3);
 
 .titulo-principal:first-letter{
 	font-weight: bold;
@@ -211,6 +212,7 @@ content: "]"
 .beneficios{
 	padding: 3em 0;
 	background-color: #888888;
+
 }
 
 
@@ -258,6 +260,7 @@ content: "]"
 	width: 60%;
 	opacity: 1;
 	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000; /*deslocamento da sombra no eixo X e Y e o bluer ou transição */
 }
 
 .imagem-beneficios:hover{
@@ -269,6 +272,21 @@ content: "]"
 	width: 540px;
 	margin: 2em auto;
 
+}
+
+@media screen and (max-width: 480px){ /* tag para exibir outro layout em telas diferentes 2 and 2 */
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto;;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
 }
 
 
