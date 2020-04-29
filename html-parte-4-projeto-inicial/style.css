@@ -275,4 +275,10 @@ img ~ p{
 
 	background: yellow;
 }
+
+seleciona todos os paragrafos que não são o id=missao
+.principal p:not(#missao){ 
+	background: orange;
+}
 */
+
